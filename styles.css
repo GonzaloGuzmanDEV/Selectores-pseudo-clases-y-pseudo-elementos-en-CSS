@@ -1,0 +1,42 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    background: #0060a5;
+}
+
+button{
+
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 3%;
+    cursor: pointer;
+    background: #36abff;
+    border: 1px solid #36abff;
+}
+
+button:hover{
+
+    background: #07AA2B;
+}
+
+button::after{
+
+    content: "PASA POR ENCIMA";
+    color: black;
+    font-weight: bold;
+
+}
+
+button:hover::after{
+
+    content: "¡HECHO!";
+    color: white;
+}
+
+
